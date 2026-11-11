@@ -82,6 +82,7 @@ const DARK = { bg: '#161310', sidebar: '#1E1A16', text: '#EDE8DF', muted: '#6E64
 /* ── Data ─────────────────────────────────────────────────── */
 const papers = [
 { authors: 'Kearns, M., Skeels, A., Yaxley, K.J. & Cardillo, M.', title: 'Conservation priority areas based on phylogenetic diversity are sensitive to methods of phylogenetic inference and divergence time estimation', journal: 'Diversity and Distributions', year: 2026, doi: 'https://doi.org/10.1111/ddi.70166' },
+{ authors: 'Tapia-Contreras, B., Tissera, P.B., Sillero, E., Jofré, P., Yaxley, K.J. et al.', title: 'Reconstructing chemical enrichment pathways in disc galaxies — a phylogenetic approach', journal: 'Astronomy & Astrophysics', year: 2026, doi: 'https://doi.org/10.1051/0004-6361/202557475' },
 { authors: 'Bromham, L., Yaxley, K.J., Wilson, O. & Hua, X.', title: 'Macroevolutionary analysis of polysynthesis shows that language complexity is more likely to evolve in small, isolated populations', journal: 'PNAS', year: 2025, doi: 'https://doi.org/10.1073/pnas.2504483122' },
 { authors: 'Bromham, L., Yaxley, K.J. & Cardillo, M.', title: 'Islands are engines of language diversity', journal: 'Nature Ecology & Evolution', year: 2024, doi: 'https://doi.org/10.1038/s41559-024-02488-4' },
 { authors: 'Behie, A.M., Steffens, T.S., Yaxley, K.J. et al.', title: 'Can cyclone exposure explain behavioural and demographic variation among lemur species?', journal: 'PLOS ONE', year: 2024, doi: 'https://doi.org/10.1371/journal.pone.0300972' },
@@ -90,6 +91,7 @@ const papers = [
 { authors: 'Yaxley, K.J., Skeels, A. & Foley, R.A.', title: 'Global variation in the relationship between avian phylogenetic diversity and functional distance is driven by environmental context and constraints', journal: 'Global Ecology and Biogeography', year: 2023, doi: 'https://doi.org/10.1111/geb.13762', featured: true },
 { authors: 'Skeels, A. & Yaxley, K.J.', title: 'Functional endemism captures hotspots of unique phenotypes and restricted ranges', journal: 'Ecography', year: 2023, doi: 'https://doi.org/10.1111/ecog.06913' },
 { authors: 'Bromham, L. & Yaxley, K.J.', title: 'Neighbours and relatives: accounting for spatial distribution when testing causal hypotheses in cultural evolution', journal: 'Evolutionary Human Sciences', year: 2023, doi: 'https://doi.org/10.1017/ehs.2023.23' },
+{ authors: 'Jackson, H., Jofré, P., Yaxley, K.J. et al.', title: 'Using heritability of stellar chemistry to reveal the history of the Milky Way', journal: 'Monthly Notices of the Royal Astronomical Society', year: 2021, doi: 'https://doi.org/10.1093/mnras/staa4028' },
 { authors: 'Ritchie, A.M., Hua, X., Cardillo, M., Yaxley, K.J. et al.', title: 'Phylogenetic diversity metrics from molecular phylogenies: modelling expected degree of error under realistic rate variation', journal: 'Diversity and Distributions', year: 2020, doi: 'https://doi.org/10.1111/ddi.13179' },
 { authors: 'Yaxley, K.J. & Foley, R.A.', title: 'Reconstructing the ancestral phenotypes of great apes and humans (Homininae) using subspecies-level phylogenies', journal: 'Biological Journal of the Linnean Society', year: 2019, doi: 'https://doi.org/10.1093/biolinnean/blz140' }];
 
@@ -97,11 +99,10 @@ const papers = [
 const featuredPaper = papers.find((p) => p.featured);
 
 const inReview = [
-{ authors: 'Tapia-Contreras, B., Tissera, P.B., Sillero, E. et al.', title: 'Reconstructing chemical enrichment pathways in disc galaxies — a phylogenetic approach', journal: 'Astronomy & Astrophysics', year: 2026, status: 'Accepted' },
 { authors: 'Bromham, L., Skeels, A., Hua, X. et al.', title: 'Energy-diversity theories: evaluating the evidence for causal connections between environmental energy and biodiversity', journal: 'Biological Reviews', year: 2026 },
 { authors: 'Kanishka, A.M., Yaxley, K.J., Birgan, K. et al.', title: 'The influence of grassland management on patterns of occurrence of Golden Sun Moths across the Australian Capital Territory', journal: 'Ecological Management and Restoration', year: 2026 },
 { authors: 'Yaxley, K.J., Bentley, L.K. & Skeels, A.', title: 'Evolutionary Distinctiveness and Functional Distinctiveness capture separate facets of avian biodiversity', journal: 'Global Ecology and Biogeography', year: 2026 },
-{ authors: 'Skeels, A., Yaxley, K.J. & Cardillo, M.', title: 'Three forms of distinctiveness: the macroecology of geographically rare, functionally unique and evolutionarily distinct species', journal: 'Ecography', year: 2026 },
+{ authors: 'Skeels, A., Yaxley, K.J. & Cardillo, M.', title: 'Three forms of distinctiveness: the macroecology of geographically rare, functionally unique and evolutionarily distinct species', journal: 'Ecography', year: 2026, status: 'Accepted' },
 ];
 
 const tools = [
